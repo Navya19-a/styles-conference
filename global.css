@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-color: hwb(185 0% 85%);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #648880;
+}
+.navbar {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 0 44px;    
+}
+.container-fluid {
+    display: flex;
+    align-items: flex-end !important;
+    padding: 0;
+ }
+.leva-strana {
+    padding: 40px 0 0;
+ border-top: 4px solid hsl(167, 34%, 36%);
+
+}
+.navbar-brand {
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase; 
+    line-height: 44px;
+}
+.navbar-brand:hover {
+    color: #648880;
+}
+.datum {
+    text-align: right;
+
+}
+.nav-item a {
+    padding: 0 10px !important;
+    line-height: normal;
+    margin: 0;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav-item a:hover {
+    color: #648880 !important;
+}
+
+@media (max-width: 380px) {
+    .navbar-brand {
+        font-size: 42px;
+    }
+
+    .leva-strana {
+        margin-left: 0px;
+    };
+}
+/* ---------------------DOVDE JE NAVBAR---------------- */
+.first-section {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px;
+}
+.first-section h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 22px;
+}
+.first-section p {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 21px;
+    color: #888;
+    margin-bottom: 22px;
+}
+
+/* ---------------------DOVDE JE first section---------------- */
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 44px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-nav {
+    width: 35%;
+}
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+small {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #648880;
+}
+
+@media (max-width: 991.98px) {
+    footer {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    small {
+        order: 1;
+        padding-left: 32px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+}
+.main-section {
+    max-width: 960px;
+    margin: 15px auto 55px;
+    text-align: center;
+}
+
+.prvi-naslov {
+    font-size: 36px;
+   font-weight: 300;
+}
+
+.prvi-p {
+    width: 80%;
+    margin: 0 auto 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 44px;
+
+}
+
+.dugme {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.dugme:hover {
+    color: #648880;
+    background-color: white;
+}
+
+
+.middle-section {
+    width: 100%;
+    background-color: white;
+    padding: 66px 0 44px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slika-clanak {
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.mali-naslov {
+    color: #a9b2b9;
+    font-size: 14px;
+    margin: 0 0 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.veliki-naslov {
+    font-size: 21px;
+    margin: 0 0 22px;
+    font-weight: 300;
+}
+
+.tekst-clanak {
+    font-size: 16px;
+    margin: 0 0 22px;
+    font-weight: 300;
+    color: #888;
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .clanak {
+
+        width: 60%;
+    }
+
+    .slika-clanak {
+        width: 100%;
+    }
+
+
+}
